@@ -15,7 +15,6 @@
      <author href="https://build.phonegap.com" email="support@phonegap.com">
       radio
     </author>
-        <gap:plugin name="org.apache.cordova.contacts" version="0.2.13" />
         <gap:plugin name="com.adobe.plugins.gaplugin" />
        
 
