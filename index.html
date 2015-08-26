@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>רדיו חרדי</title>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <link rel="stylesheet" href="main.css">
+        <script src="cordova.js"></script>
+		<script src="GAPlugin.js"></script>
+		<script src="analytics.js"></script>
+        <script>
+            $(window).ready(function(){
+                $("li").click(function(){
+                    alert($(this).attr("data-url"));
+                });
+            });
+        
+        
+        
+        </script>
+    </head>
+<body>
+<h1>נא בחרו ערוץ</h1>
+   
+    <ul>
+        <li data-url="">קול חי</li>
+        <li data-url="http://server1.live1.co.il:8004/livemp3">קול ברמה</li>
+        <li>גאולה</li>
+        <li>טוקר</li>
+        <li>jewish music stream</li>
+        <li>jewishmusic.fm</li>
+        <li>הידברות</li>
+        <li>קול חי מיוזיק</li>
+        <li>קול חי שיעורים</li>
+    </ul>
+    
+
+
+</body>
+</html>
