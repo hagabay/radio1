@@ -11,9 +11,11 @@
         <link rel="stylesheet" href="main.css">
         <script src="cordova.js"></script>
 		<script src="GAPlugin.js"></script>
-		<script src="analytics.js"></script>
+		
         <script>
             $(window).ready(function(){
+                window.analytics.startTrackerWithId("UA-66840604-1")	;
+                window.analytics.trackView('Screen Title');
                 $("li").click(function(){
                     alert($(this).attr("data-url"));
                 });
