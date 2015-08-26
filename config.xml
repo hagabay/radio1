@@ -15,9 +15,6 @@
      <author href="https://build.phonegap.com" email="support@phonegap.com">
       radio
     </author>
-        <feature name="UniversalAnalytics">
-  <param name="android-package" value="com.danielcwilson.plugins.analytics.UniversalAnalyticsPlugin" />
-</feature>
         <gap:plugin name="com.danielcwilson.plugins.googleanalytics" version="0.6.1" />
    
 
