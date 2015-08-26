@@ -16,7 +16,7 @@
     < param name="android-package" value="com.adobe.plugins.GAPlugin"/>
 </feature>
       
-       <gap:plugin name="com.adobe.plugins.gaplugin" version="2.4.0" />
+       <gap:plugin name="com.adobe.plugins.gaplugin" />
 
 
 </widget>
