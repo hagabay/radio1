@@ -12,7 +12,9 @@
     <description>
        radio
     </description>
-
+        <gap:plugin name="com.danielcwilson.plugins.googleanalytics" version="0.6.1" />
+        <gap:plugin name="org.apache.cordova.statusbar" version="0.1.4" />
+        <gap:plugin name="com.google.analytics.celwell" version="0.7.4" />
     <author href="https://build.phonegap.com" email="support@phonegap.com">
       radio
     </author>
