@@ -11,14 +11,16 @@
         <link rel="stylesheet" href="main.css">
         <script src="cordova.js"></script>
 		<script src="GAPlugin.js"></script>
-		<script src="analytics.js"></script>
+		
         <script>
             var gaPlugin;
-
-            function onDeviceReady() {
-                alert(1);
                 gaPlugin = window.plugins.gaPlugin;
                 gaPlugin.init(successHandler, errorHandler, "UA-66840604-1", 10);
+            gaPlugin.trackPage( nativePluginResultHandler, nativePluginErrorHandler,     "some.url.com");
+            function onDeviceReady() {
+                alert(1);
+             //   gaPlugin = window.plugins.gaPlugin;
+             //   gaPlugin.init(successHandler, errorHandler, "UA-66840604-1", 10);
             }
             $(window).ready(function(){
                 
