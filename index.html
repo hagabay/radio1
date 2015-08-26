@@ -13,12 +13,18 @@
 		<script src="GAPlugin.js"></script>
 		<script src="analytics.js"></script>
         <script>
+            var gaPlugin;
+
+            function onDeviceReady() {
+                alert(1);
+                gaPlugin = window.plugins.gaPlugin;
+                gaPlugin.init(successHandler, errorHandler, "UA-66840604-1", 10);
+            }
             $(window).ready(function(){
-                window.analytics.startTrackerWithId('UA-66840604-1');
-                window.analytics.trackView('Screen Title');
+                
                 $("li").click(function(){
                     alert($(this).attr("data-url"));
-                    window.analytics.trackView('Screen Title');
+                 //   window.analytics.trackView('Screen Title');
                 });
             });
         
