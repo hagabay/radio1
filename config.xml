@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.phonegap.example"
+        id          = "radio"
         versionCode = "10" 
         version     = "1.0.0" >
 
@@ -12,10 +12,9 @@
     <description>
        radio
     </description>
-     <author href="https://build.phonegap.com" email="support@phonegap.com">
-      radio
-    </author>
-        <gap:plugin name="com.adobe.plugins.gaplugin" />
-       
+     
+      
+       <gap:plugin name="com.adobe.plugins.gaplugin" version="2.4.0" />
+
 
 </widget>
