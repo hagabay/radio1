@@ -12,15 +12,12 @@
     <description>
        radio
     </description>
-<<<<<<< HEAD
+
      <feature name="GAPlugin" >
     < param name="android-package" value="com.adobe.plugins.GAPlugin"/>
 </feature>
-=======
-     
->>>>>>> origin/master
-      
-       <gap:plugin name="com.adobe.plugins.gaplugin" />
 
+      
+        <gap:plugin name="de.appplant.cordova.plugin.local-notification" />
 
 </widget>

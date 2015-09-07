@@ -13,51 +13,15 @@
 		<script src="GAPlugin.js"></script>
 		
         <script>
-           
-		function play(url,image,name){
-			var p = '<video id="example_video_1" class="video-js vjs-default-skin" controls autoplay preload="auto" width="100%" height="100%" poster="'+image+'" data-setup="{}"><source src="'+url+'" type="audio/mp3"></video>';
-			$("#player").html(p);
-			$("#header").text(name);
-		}
+         document.addEventListener('deviceready', function () {
+                // window.plugin.notification.local is now available
+             window.plugin.notification.local.add({ sound: null });
+            }, false);  
 		
-			
-			
-		
-		
-            $(document).ready(function(){
-                $("li").click(function(){
-                    var t = $(this).attr("data-url");
-                    var l = $(this).attr("data-logo");
-                    play(t,l,$(this).text());
-				    return false;
-                  
-                });
-            });
-        
-        
-        
         </script>
     </head>
 <body>
-<div id="header">בחרו ערוץ</div>
-<div id="player" controls>
-
-
- 
-</div>
-
-   
-    <ul>
-        <li data-url="http://93fm.ilcast.com:8000/live" data-logo="93fm.jpg">קול חי</li>
-        <li data-url="http://server1.live1.co.il:8004/livemp3" data-logo="kolbarama.jpg">קול ברמה</li>
-        <li data-url="http://178.33.191.197:8010/;" data-logo="geula.jpg">גאולה</li>
-        <li data-url="http://178.33.191.197:6060/;stream.mp3"  data-logo="toker.jpg">טוקר</li>
-        <li data-url="http://23.92.66.94:8000/;" data-logo="jms.jpg">jewish music stream</li>
-        <li data-url="http://jradio.ilcast.com:8000/livemusic" data-logo="93music.jpg">קול חי מיוזיק</li>
-        <li data-url="http://jradio.ilcast.com:8000/torani" data-logo="torani.jpg">קול חי שיעורים</li>
-    </ul>
-    
-
+hello
 
 </body>
 
