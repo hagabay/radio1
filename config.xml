@@ -18,6 +18,7 @@
 </feature>
 
       
-        <gap:plugin name="de.appplant.cordova.plugin.local-notification" />
+       <gap:plugin name="com.adobe.plugins.gaplugin" />
+
 
 </widget>
