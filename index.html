@@ -13,9 +13,11 @@
 		<script src="GAPlugin.js"></script>
 		
         <script>
+        alert();
          document.addEventListener('deviceready', function () {
                 // window.plugin.notification.local is now available
-             window.plugin.notification.local.add({ sound: null }); 
+                 alert();
+           window.plugin.notification.local.add({ message: 'Great app!' });
             }, false);  
 		
         </script>
