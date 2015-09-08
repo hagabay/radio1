@@ -19,6 +19,7 @@
 var app = {
     // Application Constructor
     initialize: function() {
+        alert(device.platform);
         this.bindEvents();
     },
     // Bind Event Listeners
