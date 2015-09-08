@@ -13,6 +13,6 @@
        radio
     </description>
 
-
+<gap:plugin name="de.appplant.cordova.plugin.local-notification" />
 
 </widget>
