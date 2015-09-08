@@ -12,7 +12,8 @@
     <description>
        radio
     </description>
-<gap:plugin name="org.apache.cordova.device" version="0.2.3" />
 <gap:plugin name="de.appplant.cordova.plugin.local-notification" version="0.7.2" />
+<gap:plugin name="org.apache.cordova.device" version="0.2.3" />
+
 
 </widget>
