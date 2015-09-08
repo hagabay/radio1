@@ -15,11 +15,11 @@
  * KIND, either express or implied.  See the License for the
  * specific language governing permissions and limitations
  * under the License.
- 
+ */
 var app = {
     // Application Constructor
     initialize: function() {
-        alert(device.platform);
+        alert();
         this.bindEvents();
     },
     // Bind Event Listeners
@@ -48,6 +48,6 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
-};*/
+};
 alert();
 //app.initialize();
