@@ -15,7 +15,7 @@
  * KIND, either express or implied.  See the License for the
  * specific language governing permissions and limitations
  * under the License.
- */
+ 
 var app = {
     // Application Constructor
     initialize: function() {
@@ -48,6 +48,6 @@ var app = {
 
         console.log('Received Event: ' + id);
     }
-};
-
-app.initialize();
+};*/
+alert();
+//app.initialize();
