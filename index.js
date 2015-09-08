@@ -42,7 +42,7 @@ var app = {
     receivedEvent: function(id) {
         
         var parentElement = document.getElementById(id);
-        alert(parentElement);
+       
         var listeningElement = parentElement.querySelector('.listening');
         var receivedElement = parentElement.querySelector('.received');
 
