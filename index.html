@@ -131,6 +131,7 @@
         <script type="text/javascript" src="index.js"></script>
 
         <script type="text/javascript">
+            alert(device.platform);
             var id = 1, dialog;
             callback = function () {
                 cordova.plugins.notification.local.getIds(function (ids) {
